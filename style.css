@@ -1,0 +1,97 @@
+#info {
+	background:#333;
+	opacity:0.8;
+	position: absolute;
+	top:5px;
+	right:5px;
+	width:280px;
+	color:#fff;
+	border-radius: 5px;
+	z-index: 10;
+}
+
+#info p {
+   padding:0 10px;
+}
+
+#info a{ color:#f2ea0a; }
+
+/* basic styles for black background and crosshair cursor */
+body {
+	background: #000;
+	margin: 0;
+	position: relative;
+}
+
+canvas {
+	cursor: crosshair;
+	display: block;
+}
+.show .con {
+	z-index: 10;
+	background-color: aliceblue;
+	overflow-y: scroll;
+	height: 400px;
+	border: 2px solid rgb(167, 35, 125);
+	border-radius: 0px 30px 20px 60px;
+	padding: 10px 15px;
+}
+.show{
+	width: 40%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-40%, -40%);
+	display: none;
+}
+.show .con h3{
+	text-align: center;
+	color: rgb(182, 65, 65);
+}
+.show .con p.t1{
+	text-align: center;
+	color: cadetblue;
+	font-size: 18px;
+}
+.show .con p.t2{
+	color: brown;
+	font-size: 18px;
+}
+
+.show .con p.t3{
+	color: red;
+}
+
+.show .con p.t4, p.t5, p.t6{
+	color: gray;
+}
+
+
+.show .con p.t7{
+	color: chocolate;
+	font-weight: bold;
+}
+
+
+
+
+
+.tieu_de h2{
+	text-align: center;
+	color: pink;
+	font-style: normal initial;
+}
+button#click{
+	margin-left: 20px;
+	font-weight: bold;
+}
+.anh{
+	width: 20%;
+	position: absolute;
+	top: 30%;
+	left: 10px;
+}
+.anh img{
+	width: 100%;
+	border-radius: 30px;
+}
